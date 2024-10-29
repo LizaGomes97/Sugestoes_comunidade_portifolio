@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html land="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht-device-width, initial-scale=1.0">
+    <title>Comunidade Sugestões</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <div class="conteudo">
+        <div class="title">
+            <h1>Bem-vindo ao Sistema de Sugestões!</h1>
+        </div>
+        <div class="subtitulo">
+            <p>Participe enviando suas ideias para melhorar a comunidade!</p>
+        </div>
+        
+    
+        <div class="container">
+            <a href="{{url_for('register')}}">
+                <button class="button">Registrar</button>
+            </a>
+            <a href="{{url_for('login')}}">
+                <button class="button">Login</button>
+            </a>
+    
+        </div>
+    </div>
+    
+</body>
+
+</html>

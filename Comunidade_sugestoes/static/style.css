@@ -1,0 +1,58 @@
+/*Estilo geral*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d9e1ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*Container principal*/
+.conteudo{
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    text-align: center;
+}
+.container {
+    background-color: #f1e6e6;
+    padding: 20px 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/*Titulo e descrição*/
+h1{
+    color: #272525;
+}
+p{
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/*Botões*/
+.button{
+    background-color: #71da75;
+    color: rgb(240, 224, 224);
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: #71da75;
+}
+.button:focus{
+    outline: none;
+}
+
+
+
